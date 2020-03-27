@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YLApiService_Example' do
+  pod 'YLApiService', :path => '../'
+
+  target 'YLApiService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

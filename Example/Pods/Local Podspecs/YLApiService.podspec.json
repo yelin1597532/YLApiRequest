@@ -1,0 +1,22 @@
+{
+  "name": "YLApiService",
+  "version": "0.1.0",
+  "summary": "A short description of YLApiService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yelin/YLApiService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yelin": "yelin@haixue.com"
+  },
+  "source": {
+    "git": "https://github.com/yelin/YLApiService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YLApiService/Classes/**/*"
+}

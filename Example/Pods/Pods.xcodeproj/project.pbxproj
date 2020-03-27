@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D94B411DC0A48770BC4AC49DD28315 /* YLApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100E5CFBA339881B0667C64D660C289 /* YLApiRequest.swift */; };
+		1DFD21947D6F2DBC9BE4CB90D59884BE /* Pods-YLApiService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D7852F46834177651D2543153D63B6 /* Pods-YLApiService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25D25B00857ED21D8B316CF6C376B991 /* Pods-YLApiService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A43D273D2A890683B2AF552ED612CAA6 /* Pods-YLApiService_Tests-dummy.m */; };
+		2B2F9938D45E0115F1D3696C845C0C18 /* YLApiService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7252E14AACD3672638719DE66BAE80D /* YLApiService-dummy.m */; };
+		2C4689F5D77422721ADFCAF59ECCA934 /* YLApiRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C1A90CDC9E137583AE46161B61A8A5 /* YLApiRequestBuilder.swift */; };
+		44AB7DBDB1CF0FCAD9D560A126C4B774 /* Pods-YLApiService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B27B55446F563F7C738353A5B1ED2 /* Pods-YLApiService_Example-dummy.m */; };
+		5D2E275669C2604D61858325ACA6C335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8EF586D2456F65EE74A6DA516FF26AB1 /* Typedefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DC080C58D0E13A9C57C7B350E06C5D /* Typedefs.swift */; };
+		B1D77F1936C4930A0AE8655B859974D7 /* YLApiService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6150D640DC2D1C66BF197F22AA7E9091 /* YLApiService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8F87E79BB436700179E40DAB0E91535 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804BA758C1C9E2FDA8EB31FD4BC3C05B /* Typealiases.swift */; };
+		D1BE5EC43F805A030355E93E5C1637A6 /* Pods-YLApiService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2B373DE7A404AB5B5E1958827B6826 /* Pods-YLApiService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D23232D1B18698B44C78E93995372F7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D4F9207A828F205DA53913AB9062319B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EC8562BBF1D7365108F95444BAAFFE68 /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A9A8D762FD68981F08E644319564B8 /* DefaultSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E0CAE0255C122D1254ADCDB9EDEAFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E1BB254B7D150EFD180091FA269291;
+			remoteInfo = YLApiService;
+		};
+		F544FDDE1DB388FD1EDBDD745719D4CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9314D3AC96041241F75DB1BEB6332AEF;
+			remoteInfo = "Pods-YLApiService_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A9A8D762FD68981F08E644319564B8 /* DefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultSettings.swift; path = YLApiService/Classes/DefaultSettings.swift; sourceTree = "<group>"; };
+		0A42663095F6A9583CE605760E18C3B4 /* Pods-YLApiService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLApiService_Tests.modulemap"; sourceTree = "<group>"; };
+		1A5FAE27A7226796F43C2BB934D7E483 /* YLApiService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLApiService-prefix.pch"; sourceTree = "<group>"; };
+		232ECCEB498FAA54955CA6976CDFCE48 /* Pods-YLApiService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLApiService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		25EA394D937A9BA88AB7E77B9436F953 /* YLApiService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YLApiService-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33ADCD6A273393AC5E2183E1C71A23EC /* Pods-YLApiService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLApiService_Example.modulemap"; sourceTree = "<group>"; };
+		35AA6A3E6BD34C40B21A42A8E1B64695 /* Pods-YLApiService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLApiService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3A1BED631A2148059BEE8E34FB319EA1 /* Pods_YLApiService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLApiService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D2B088A52EA96A923A30CC1FAC5FF1 /* Pods-YLApiService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLApiService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		550565A7000B64550CB96ABDF940E183 /* Pods-YLApiService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLApiService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5DCC14A8750655E8A39B3BFC650E860C /* Pods_YLApiService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLApiService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6150D640DC2D1C66BF197F22AA7E9091 /* YLApiService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLApiService-umbrella.h"; sourceTree = "<group>"; };
+		66B35C3AF8E2284C21B4996DD5FA51B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6D79D5EF23435FB99FA0D0D0B3D3164F /* Pods-YLApiService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLApiService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E2B373DE7A404AB5B5E1958827B6826 /* Pods-YLApiService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLApiService_Example-umbrella.h"; sourceTree = "<group>"; };
+		735B62F0EB0B66748BFAD90DA4C6B2DB /* YLApiService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLApiService.release.xcconfig; sourceTree = "<group>"; };
+		7E44B1503FCF3E95F7B5574291DD76A5 /* Pods-YLApiService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLApiService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		804BA758C1C9E2FDA8EB31FD4BC3C05B /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = YLApiService/Classes/Typealiases.swift; sourceTree = "<group>"; };
+		986AAC0A87D35A2A3D0A278787200B4C /* Pods-YLApiService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLApiService_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9B27B55446F563F7C738353A5B1ED2 /* Pods-YLApiService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLApiService_Example-dummy.m"; sourceTree = "<group>"; };
+		A43D273D2A890683B2AF552ED612CAA6 /* Pods-YLApiService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLApiService_Tests-dummy.m"; sourceTree = "<group>"; };
+		A61A32969A38B6A353028A2D0EE1D8FF /* Pods-YLApiService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLApiService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A7252E14AACD3672638719DE66BAE80D /* YLApiService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLApiService-dummy.m"; sourceTree = "<group>"; };
+		A78057C30FAC08F2E4918A59FFBF703A /* YLApiService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLApiService.debug.xcconfig; sourceTree = "<group>"; };
+		BB71A89D789D83F333DA08E3006020E3 /* Pods-YLApiService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLApiService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C100E5CFBA339881B0667C64D660C289 /* YLApiRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YLApiRequest.swift; path = YLApiService/Classes/YLApiRequest.swift; sourceTree = "<group>"; };
+		C1D8043D270C7567C9D2C2D4C83A08BF /* YLApiService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YLApiService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4C1A90CDC9E137583AE46161B61A8A5 /* YLApiRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YLApiRequestBuilder.swift; path = YLApiService/Classes/YLApiRequestBuilder.swift; sourceTree = "<group>"; };
+		E0D7852F46834177651D2543153D63B6 /* Pods-YLApiService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLApiService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E97204C6CA8C42A64E98DDC4B6DD756E /* Pods-YLApiService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLApiService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBBF6B4326D423F3AD88BF13BE5BF1AD /* YLApiService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YLApiService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DC080C58D0E13A9C57C7B350E06C5D /* Typedefs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typedefs.swift; path = YLApiService/Classes/Typedefs.swift; sourceTree = "<group>"; };
+		F5CB984C0E826F5D0734DB15156E586F /* YLApiService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLApiService.modulemap; sourceTree = "<group>"; };
+		F6F9D09C8C075DF3740BAD43E8C6995E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC6C69DDE68C12C0E41F375D0FF23C9C /* Pods-YLApiService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLApiService_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2884D89D03A521A963C29C94EF3D6573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2E275669C2604D61858325ACA6C335 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC6DE07EF4FD9DD6C5509A747C84082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F9207A828F205DA53913AB9062319B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751C920196D5CD478BD518AB36EADD0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23232D1B18698B44C78E93995372F7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C21D228D00DCBC9AF72A50EB8796C3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D7E663D55F592A76E7355481FE7EB2 /* YLApiService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		56406CF3A8D1D2F0AB8BDFD1B2BDEB92 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				66B35C3AF8E2284C21B4996DD5FA51B6 /* LICENSE */,
+				F6F9D09C8C075DF3740BAD43E8C6995E /* README.md */,
+				C1D8043D270C7567C9D2C2D4C83A08BF /* YLApiService.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		67D7E663D55F592A76E7355481FE7EB2 /* YLApiService */ = {
+			isa = PBXGroup;
+			children = (
+				06A9A8D762FD68981F08E644319564B8 /* DefaultSettings.swift */,
+				804BA758C1C9E2FDA8EB31FD4BC3C05B /* Typealiases.swift */,
+				F1DC080C58D0E13A9C57C7B350E06C5D /* Typedefs.swift */,
+				C100E5CFBA339881B0667C64D660C289 /* YLApiRequest.swift */,
+				D4C1A90CDC9E137583AE46161B61A8A5 /* YLApiRequestBuilder.swift */,
+				56406CF3A8D1D2F0AB8BDFD1B2BDEB92 /* Pod */,
+				AB5CA8664BA5750C8108082C36C23DF5 /* Support Files */,
+			);
+			name = YLApiService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8A943DAFD91A1AD02989726928F72A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1BED631A2148059BEE8E34FB319EA1 /* Pods_YLApiService_Example.framework */,
+				5DCC14A8750655E8A39B3BFC650E860C /* Pods_YLApiService_Tests.framework */,
+				EBBF6B4326D423F3AD88BF13BE5BF1AD /* YLApiService.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5CA8664BA5750C8108082C36C23DF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB984C0E826F5D0734DB15156E586F /* YLApiService.modulemap */,
+				A7252E14AACD3672638719DE66BAE80D /* YLApiService-dummy.m */,
+				25EA394D937A9BA88AB7E77B9436F953 /* YLApiService-Info.plist */,
+				1A5FAE27A7226796F43C2BB934D7E483 /* YLApiService-prefix.pch */,
+				6150D640DC2D1C66BF197F22AA7E9091 /* YLApiService-umbrella.h */,
+				A78057C30FAC08F2E4918A59FFBF703A /* YLApiService.debug.xcconfig */,
+				735B62F0EB0B66748BFAD90DA4C6B2DB /* YLApiService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLApiService";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC77B4CC110EDE4995A81C1BDC946551 /* Pods-YLApiService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				33ADCD6A273393AC5E2183E1C71A23EC /* Pods-YLApiService_Example.modulemap */,
+				6D79D5EF23435FB99FA0D0D0B3D3164F /* Pods-YLApiService_Example-acknowledgements.markdown */,
+				7E44B1503FCF3E95F7B5574291DD76A5 /* Pods-YLApiService_Example-acknowledgements.plist */,
+				9F9B27B55446F563F7C738353A5B1ED2 /* Pods-YLApiService_Example-dummy.m */,
+				550565A7000B64550CB96ABDF940E183 /* Pods-YLApiService_Example-frameworks.sh */,
+				FC6C69DDE68C12C0E41F375D0FF23C9C /* Pods-YLApiService_Example-Info.plist */,
+				6E2B373DE7A404AB5B5E1958827B6826 /* Pods-YLApiService_Example-umbrella.h */,
+				232ECCEB498FAA54955CA6976CDFCE48 /* Pods-YLApiService_Example.debug.xcconfig */,
+				35AA6A3E6BD34C40B21A42A8E1B64695 /* Pods-YLApiService_Example.release.xcconfig */,
+			);
+			name = "Pods-YLApiService_Example";
+			path = "Target Support Files/Pods-YLApiService_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				05C21D228D00DCBC9AF72A50EB8796C3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8A943DAFD91A1AD02989726928F72A9D /* Products */,
+				E42D4B94E7A6D104331E4488FE2E4AE2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E42D4B94E7A6D104331E4488FE2E4AE2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC77B4CC110EDE4995A81C1BDC946551 /* Pods-YLApiService_Example */,
+				E48C8A126C4E00A83D4BEEB427FBC2B2 /* Pods-YLApiService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E48C8A126C4E00A83D4BEEB427FBC2B2 /* Pods-YLApiService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A42663095F6A9583CE605760E18C3B4 /* Pods-YLApiService_Tests.modulemap */,
+				49D2B088A52EA96A923A30CC1FAC5FF1 /* Pods-YLApiService_Tests-acknowledgements.markdown */,
+				BB71A89D789D83F333DA08E3006020E3 /* Pods-YLApiService_Tests-acknowledgements.plist */,
+				A43D273D2A890683B2AF552ED612CAA6 /* Pods-YLApiService_Tests-dummy.m */,
+				986AAC0A87D35A2A3D0A278787200B4C /* Pods-YLApiService_Tests-Info.plist */,
+				E0D7852F46834177651D2543153D63B6 /* Pods-YLApiService_Tests-umbrella.h */,
+				E97204C6CA8C42A64E98DDC4B6DD756E /* Pods-YLApiService_Tests.debug.xcconfig */,
+				A61A32969A38B6A353028A2D0EE1D8FF /* Pods-YLApiService_Tests.release.xcconfig */,
+			);
+			name = "Pods-YLApiService_Tests";
+			path = "Target Support Files/Pods-YLApiService_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D1FF8B6E208C2AD3610BC5F716507F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D77F1936C4930A0AE8655B859974D7 /* YLApiService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508B3CB50DDFBB894792740DA88ED04E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BE5EC43F805A030355E93E5C1637A6 /* Pods-YLApiService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6D68B1275C6C1BCDDC27849DAF420 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFD21947D6F2DBC9BE4CB90D59884BE /* Pods-YLApiService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08608581BBC04ACD96B085FBF13B6FCB /* Pods-YLApiService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022F10DED094476C4C0F9F4002567C18 /* Build configuration list for PBXNativeTarget "Pods-YLApiService_Tests" */;
+			buildPhases = (
+				EDE6D68B1275C6C1BCDDC27849DAF420 /* Headers */,
+				A765ECCFE650434C8F7740C4F746090F /* Sources */,
+				4AC6DE07EF4FD9DD6C5509A747C84082 /* Frameworks */,
+				0D99BE80CA5E7FBC7C0A4AC3519E6EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D9702E199C1F6BF11589192F4A08D1D /* PBXTargetDependency */,
+			);
+			name = "Pods-YLApiService_Tests";
+			productName = "Pods-YLApiService_Tests";
+			productReference = 5DCC14A8750655E8A39B3BFC650E860C /* Pods_YLApiService_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44E1BB254B7D150EFD180091FA269291 /* YLApiService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBEDA63E28CFEEB1E49DB08529179B5 /* Build configuration list for PBXNativeTarget "YLApiService" */;
+			buildPhases = (
+				2D1FF8B6E208C2AD3610BC5F716507F7 /* Headers */,
+				58135DA3EB18B8C9484F4A3A0A4BA5FD /* Sources */,
+				2884D89D03A521A963C29C94EF3D6573 /* Frameworks */,
+				8FF2159C0792FFFC36299FA35B9F1C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLApiService;
+			productName = YLApiService;
+			productReference = EBBF6B4326D423F3AD88BF13BE5BF1AD /* YLApiService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9314D3AC96041241F75DB1BEB6332AEF /* Pods-YLApiService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A9ABE1F32680426A60BDF43BA7E013 /* Build configuration list for PBXNativeTarget "Pods-YLApiService_Example" */;
+			buildPhases = (
+				508B3CB50DDFBB894792740DA88ED04E /* Headers */,
+				CC3389F8ADC0A633DD1663B729980E9E /* Sources */,
+				751C920196D5CD478BD518AB36EADD0A /* Frameworks */,
+				F9F1CAD230050FFC7289FFBDF7F4C73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20EA1AA6FF24AAD86BDB16D3BE44F1A /* PBXTargetDependency */,
+			);
+			name = "Pods-YLApiService_Example";
+			productName = "Pods-YLApiService_Example";
+			productReference = 3A1BED631A2148059BEE8E34FB319EA1 /* Pods_YLApiService_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8A943DAFD91A1AD02989726928F72A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9314D3AC96041241F75DB1BEB6332AEF /* Pods-YLApiService_Example */,
+				08608581BBC04ACD96B085FBF13B6FCB /* Pods-YLApiService_Tests */,
+				44E1BB254B7D150EFD180091FA269291 /* YLApiService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D99BE80CA5E7FBC7C0A4AC3519E6EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF2159C0792FFFC36299FA35B9F1C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F1CAD230050FFC7289FFBDF7F4C73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58135DA3EB18B8C9484F4A3A0A4BA5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8562BBF1D7365108F95444BAAFFE68 /* DefaultSettings.swift in Sources */,
+				B8F87E79BB436700179E40DAB0E91535 /* Typealiases.swift in Sources */,
+				8EF586D2456F65EE74A6DA516FF26AB1 /* Typedefs.swift in Sources */,
+				08D94B411DC0A48770BC4AC49DD28315 /* YLApiRequest.swift in Sources */,
+				2C4689F5D77422721ADFCAF59ECCA934 /* YLApiRequestBuilder.swift in Sources */,
+				2B2F9938D45E0115F1D3696C845C0C18 /* YLApiService-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A765ECCFE650434C8F7740C4F746090F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D25B00857ED21D8B316CF6C376B991 /* Pods-YLApiService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3389F8ADC0A633DD1663B729980E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AB7DBDB1CF0FCAD9D560A126C4B774 /* Pods-YLApiService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D9702E199C1F6BF11589192F4A08D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YLApiService_Example";
+			target = 9314D3AC96041241F75DB1BEB6332AEF /* Pods-YLApiService_Example */;
+			targetProxy = F544FDDE1DB388FD1EDBDD745719D4CF /* PBXContainerItemProxy */;
+		};
+		C20EA1AA6FF24AAD86BDB16D3BE44F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YLApiService;
+			target = 44E1BB254B7D150EFD180091FA269291 /* YLApiService */;
+			targetProxy = 8E0CAE0255C122D1254ADCDB9EDEAFBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DE699C41246D11C5A6C803CEF50E591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AA6A3E6BD34C40B21A42A8E1B64695 /* Pods-YLApiService_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLApiService_Example/Pods-YLApiService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLApiService_Example/Pods-YLApiService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57A87EAEB6C780EA8242EB740186B76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232ECCEB498FAA54955CA6976CDFCE48 /* Pods-YLApiService_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLApiService_Example/Pods-YLApiService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLApiService_Example/Pods-YLApiService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60EF468AB835F761A2D5C450665B5B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735B62F0EB0B66748BFAD90DA4C6B2DB /* YLApiService.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YLApiService/YLApiService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YLApiService/YLApiService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YLApiService/YLApiService.modulemap";
+				PRODUCT_MODULE_NAME = YLApiService;
+				PRODUCT_NAME = YLApiService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		729DECD0226D336AEA7B905221CDD1CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78057C30FAC08F2E4918A59FFBF703A /* YLApiService.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YLApiService/YLApiService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YLApiService/YLApiService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YLApiService/YLApiService.modulemap";
+				PRODUCT_MODULE_NAME = YLApiService;
+				PRODUCT_NAME = YLApiService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A017F7C98C650B8BCC368BCF470BC526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97204C6CA8C42A64E98DDC4B6DD756E /* Pods-YLApiService_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLApiService_Tests/Pods-YLApiService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLApiService_Tests/Pods-YLApiService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B92131121EA09423EE5A43AE89342033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61A32969A38B6A353028A2D0EE1D8FF /* Pods-YLApiService_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLApiService_Tests/Pods-YLApiService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLApiService_Tests/Pods-YLApiService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022F10DED094476C4C0F9F4002567C18 /* Build configuration list for PBXNativeTarget "Pods-YLApiService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A017F7C98C650B8BCC368BCF470BC526 /* Debug */,
+				B92131121EA09423EE5A43AE89342033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBEDA63E28CFEEB1E49DB08529179B5 /* Build configuration list for PBXNativeTarget "YLApiService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729DECD0226D336AEA7B905221CDD1CD /* Debug */,
+				60EF468AB835F761A2D5C450665B5B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A9ABE1F32680426A60BDF43BA7E013 /* Build configuration list for PBXNativeTarget "Pods-YLApiService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A87EAEB6C780EA8242EB740186B76D /* Debug */,
+				1DE699C41246D11C5A6C803CEF50E591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
