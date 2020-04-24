@@ -9,6 +9,7 @@ import UIKit
 
 class DefaultSettings: NSObject {
     static let shared = DefaultSettings()
+    var scheme: HttpScheme = .https
     var host: String = ""
     var timeoutInterval: TimeInterval = 10
     var header: [String: Any]? = nil

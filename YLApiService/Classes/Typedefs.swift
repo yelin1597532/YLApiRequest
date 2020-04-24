@@ -12,6 +12,20 @@ enum HttpMethod: String {
     case POST = "POST"
 }
 
+public enum HttpScheme {
+    case http
+    case https
+}
+
 public enum BodyType {
     case Json
+}
+
+public struct Response<T> {
+    public let value: T
+    public let response: URLResponse
+    public init(value: T, response: URLResponse) {
+        self.value = value
+        self.response = response
+    }
 }
